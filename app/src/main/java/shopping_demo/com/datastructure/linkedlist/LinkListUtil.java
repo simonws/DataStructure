@@ -3,7 +3,7 @@ package shopping_demo.com.datastructure.linkedlist;
 import java.util.HashSet;
 import java.util.Stack;
 
-public class StackUtil {
+public class LinkListUtil {
 	
 		class Node{
 			int data;
@@ -12,12 +12,6 @@ public class StackUtil {
 				this.data = data;
 			}
 		}
-		
-		
-		
-		
-		
-		
 		
 		
 		//1.删除单链表中的指定结点
@@ -115,7 +109,7 @@ public class StackUtil {
 	        Node node=null;  
 	        Node pnode=null;  
 	        while(head1!=null||head2!=null)  
-	        {  
+	        {
 	            n1=head1==null?0:head1.data;  
 	            n2=head2==null?0:head2.data;  
 	            head1=head1.next;  
